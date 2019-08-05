@@ -92,7 +92,7 @@ public class UecActivity extends AppCompatActivity implements AdapterView.OnItem
             @Override
             public void onClick(View v) {
                 TextView tx = findViewById(R.id.congratsText);
-                if (!sub1.equals("D") && !sub2.equals("E") && sub6.equals("B")){
+                if (!sub2.equals("D") && !sub2.equals("E") && !sub6.equals("C") && !sub6.equals("D") && !sub6.equals("E")){
                     tx.setText(R.string.congrats);
                 } else {
                     tx.setText(R.string.sorry);
