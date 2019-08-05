@@ -93,9 +93,9 @@ public class OlevelActivity extends AppCompatActivity implements AdapterView.OnI
             public void onClick(View v) {
                 TextView tx = findViewById(R.id.congratsText);
                 if (!sub2.equals("D") && !sub2.equals("E") && !sub6.equals("D") && !sub6.equals("E")){
-                    tx.setText(R.string.congrats);
-                } else {
                     tx.setText(R.string.sorry);
+                } else {
+                    tx.setText(R.string.congrats);
                 }
             }
         });
